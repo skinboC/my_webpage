@@ -154,6 +154,89 @@ function App() {
           </Grid>
 
 
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/4dgs.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">Anchored 4D Gaussian Splatting for Dynamic Novel View Synthesis</Typography>
+                      <Typography color="textSecondary">
+                        Yilong Li, Bo Pang, Yisong Chen, Guoping Wang
+                        <br/>
+                        SIGGRAPH Asia 2025 (Accepted, to appear) 
+                        <br/>
+                      
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/upclean.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">Joint Point Cloud Upsampling and Cleaning with Octree-based CNNs</Typography>
+                      <Typography color="textSecondary">
+                        Jihe Li, Bo Pang, Peng-Shuai Wang
+                        <br/>
+                        Computational Visual Media (CVMJ), 2024 
+                        <br/>
+                        <Link href="https://github.com/octree-nn/upsample-clean"> Paper Link</Link>
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/nat.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">NAT: Neural Acoustic Transfer for Interactive Scenes in Real Time</Typography>
+                      <Typography color="textSecondary">
+                        Xutong Jin, Bo Pang, Chenxi Xu, Xinyun Hou, Guoping Wang, Sheng Li
+                        <br/>
+                        IEEE Transactions on Visualization and Computer Graphics (TVCG), Accepted
+                        <br/>
+                      
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+
         </Grid>
       </Section>
 
@@ -237,6 +320,8 @@ function App() {
 
           
         </Box>
+        <br/>
+        Last updated: 27th Sept, 2025
       </Section>
     </Container>
   );
