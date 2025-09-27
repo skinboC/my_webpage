@@ -161,7 +161,7 @@ function App() {
                 <Stack direction={"vertical"}>
                   <Box>
                     <Avatar
-                      src="paper/4dgs.png"
+                      src="paper/4DGS.png"
                       sx={{ width: 180, height: 120, margin: '0 2' }}
                       variant="square"
                     />
