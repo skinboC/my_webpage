@@ -171,8 +171,9 @@ function App() {
                       <Typography color="textSecondary">
                         Yilong Li, Bo Pang, Yisong Chen, Guoping Wang
                         <br/>
-                        SIGGRAPH Asia 2025 (Accepted, to appear) 
+                        SIGGRAPH Asia 2025
                         <br/>
+                        <Link href="https://dl.acm.org/doi/full/10.1145/3757377.3763898"> Paper Link</Link>
                       
                       </Typography>
                   </Box>
@@ -225,9 +226,68 @@ function App() {
                       <Typography color="textSecondary">
                         Xutong Jin, Bo Pang, Chenxi Xu, Xinyun Hou, Guoping Wang, Sheng Li
                         <br/>
-                        IEEE Transactions on Visualization and Computer Graphics (TVCG), Accepted
+                        IEEE Transactions on Visualization and Computer Graphics (TVCG) 
                         <br/>
+                        <Link href="https://ieeexplore.ieee.org/document/11192590"> Paper Link</Link>
                       
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/vibraverse.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">VibraVerse: A Large-Scale Geometry-Acoustics Alignment Dataset for Physically-Consistent Multimodal Learning</Typography>
+                      <Typography color="textSecondary">
+                        Bo Pang, Chenxi Xu, Jierui Ren, Guoping Wang, Sheng Li
+                        <br/>
+                        Submitted to CVPR 
+                        <br/>
+                        <Link href="https://arxiv.org/abs/2511.20422"> Paper Link</Link>
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/neuralcone.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">Neural Cone Radiosity for Interactive Global Illumination with Glossy Materials</Typography>
+                      <Typography color="textSecondary">
+                        Jierui Ren, Haojie Jin, Bo Pang, Yisong Chen, Guoping Wang, Sheng Li
+                        <br/>
+                        Submitted to IEEE Transactions on Visualization and Computer Graphics (TVCG) 
+                        <br/>
+                        <Link href="https://arxiv.org/abs/2509.07522"> Paper Link</Link>
                       </Typography>
                   </Box>
                 </Stack>
