@@ -381,7 +381,7 @@ function App() {
           
         </Box>
         <br/>
-        Last updated: 27th Sept, 2025
+        Last updated: 29th Dec, 2025
       </Section>
     </Container>
   );
