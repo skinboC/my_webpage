@@ -297,6 +297,34 @@ function App() {
 
 
 
+
+          <Grid item xs={12} md={12}>
+            <StyledCard>
+              <CardContent>
+                <Stack direction={"vertical"}>
+                  <Box>
+                    <Avatar
+                      src="paper/timegaze.png"
+                      sx={{ width: 180, height: 120, margin: '0 2' }}
+                      variant="square"
+                    />
+                  </Box>
+                  <Box pl={3} pt={1}>
+                    <Typography variant="h6">TimeGazer: Temporal Modeling of Predictive Gaze Stabilization for AR Interaction</Typography>
+                      <Typography color="textSecondary">
+                        Yaozheng Xia, Zaiping Zhu, Bo Pang, Shaorong Wang, Sheng Li
+                    
+                        <br/>
+                        <Link href="https://arxiv.org/abs/2510.01561"> Paper Link</Link>
+                      </Typography>
+                  </Box>
+                </Stack>
+              </CardContent>
+            </StyledCard>
+          </Grid>
+
+
+
         </Grid>
       </Section>
 
