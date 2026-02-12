@@ -1,5 +1,14 @@
 To deploy, use `npm run build` and `npm run deploy`
 
+
+TO ADD papers:
+
+- Generalizable Sound
+- EIGENGNN
+- Geometry PT
+
+TO ADD: SIGA 25 SV
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

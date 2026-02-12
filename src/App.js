@@ -256,7 +256,7 @@ function App() {
                       <Typography color="textSecondary">
                         Bo Pang, Chenxi Xu, Jierui Ren, Guoping Wang, Sheng Li
                         <br/>
-                        Submitted to CVPR 
+             
                         <br/>
                         <Link href="https://arxiv.org/abs/2511.20422"> Paper Link</Link>
                       </Typography>
@@ -285,7 +285,7 @@ function App() {
                       <Typography color="textSecondary">
                         Jierui Ren, Haojie Jin, Bo Pang, Yisong Chen, Guoping Wang, Sheng Li
                         <br/>
-                        Submitted to IEEE Transactions on Visualization and Computer Graphics (TVCG) 
+         
                         <br/>
                         <Link href="https://arxiv.org/abs/2509.07522"> Paper Link</Link>
                       </Typography>
